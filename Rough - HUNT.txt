@@ -1,0 +1,60 @@
+
+<!-- === === Header Part Start === === -->
+<!-- === === Header Part End === === -->
+
+/* === === Header part Start === === */
+/* === === Header part End === === */
+
+// ==== ==== jQuery Part Starts Here ==== ====
+// ==== ==== jQuery Part Ends Here ==== ====
+
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+Home        About us        Our Portfolio        Testimonial        Pricing Plan        Contact us
+
+<div class="row">
+    <div class="col-lg-7 m-auto">
+        <div class="item_top text-center">
+            <h3>About Us</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+    </div>
+</div>
+
+<div class="slope_top"></div>
+<div class="slope_btm"></div>
+
+.serv2_para .shape {
+    position: absolute;
+    top: 150px;
+    left: -11px;
+    height: 40px;
+    width: 40px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    z-index: -999;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.serv2_item .shape_rtt {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+#logo_part .slope_btm {
+    border-right: 50vw solid #222222;
+    border-bottom: 50px solid #222222;
+}

@@ -1,0 +1,1271 @@
+
+/* ==== ==== 1. Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width:575.98px) {
+
+/* ==== ==== X-sm Common CSS start ==== ==== */
+
+    .item_top h3 {
+        font-size: 28px;
+        padding-bottom: 14px;
+    }
+
+    .item_top p {
+        font-size: 13px;
+        line-height: 22px;
+        padding: 0 33px;
+    }
+
+/* ==== ==== X-sm Header start ==== ==== */
+
+    .navbar {
+        overflow-y: visible;
+        overflow-x: hidden;
+        transition: all linear .5s;
+        -webkit-transition: all linear .5s;
+        -moz-transition: all linear .5s;
+        -ms-transition: all linear .5s;
+        -o-transition: all linear .5s;
+    }
+
+    .navbar-brand {
+        transform: scale(0.85);
+        -webkit-transform: scale(0.85);
+        -moz-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        -o-transform: scale(0.85);
+    }
+
+    .navbar-toggler i {
+        color: #fec600;
+        font-size: 20px;
+        margin-bottom: 6px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }  
+
+    .navbar-toggler .bar_sqr {
+        height: 36px;
+        width: 40px;
+        background: transparent;
+        border: 1px solid #fec600;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .navbar-toggler i:hover {
+        color: #000;
+        background: #fec600;
+    }
+
+    .xsm_menu_bg {
+        background: rgba(34, 34, 34, 0.95);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        line-height: 20px!important;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link:hover {
+        background: #000;
+    }
+
+    .navbar-nav .nav-link:hover::after {
+        display: none;
+    }
+
+/* ==== ==== X-sm Banner start ==== ==== */
+
+#banner {
+    overflow: hidden;
+}
+
+.ban_text h4 {
+    font-size: 28px;
+}
+
+.ban_text h3 {
+    font-size: 50px;
+    padding-top: 28px;
+    padding-bottom: 21px;
+}
+
+.ban_text p {
+    font-size: 13px;
+    line-height: 22px;
+    padding: 0px 31px;
+    padding-bottom: 48px;
+}
+
+.ban_text a {
+    font-size: 12px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+}
+
+.ban_olay {
+    padding-top: 220px;
+    padding-bottom: 175px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* ==== ==== X-sm About_Us start ==== ==== */
+
+    .about_item h3 {
+        font-size: 10px;
+        padding: 0 13px;
+        padding-top: 11px;
+        padding-bottom: 10px;
+    }
+
+    .about_item h3:hover {
+        cursor: pointer;
+        background: #fec600;
+    }
+
+    .about_item:hover h3 {
+        cursor: pointer;
+        background: #fec600;
+    }
+
+    .about_item p {
+        font-size: 10px;
+        line-height: 13px;
+        padding: 0 8px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        opacity: 0;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #about_us .sp-mg_abt_us {
+        margin-top: 31px;
+    }
+
+    #about_us .abt_top_mr_btm {
+        margin-bottom: 9px;
+    }
+
+    #abt_top {
+        z-index: 99;
+    }
+
+    #abt_top .shape {
+        left: 50%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_top .ccl {
+        bottom: -40px;
+        left: 50%;
+    }
+
+    #abt_btm .shape {
+        left: 50%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_btm .ccl {
+        top: -40px;
+        left: 50%;
+    }
+
+    #abt_lt .shape {
+        top: 43%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_lt .ccl {
+        top: 80%;
+        right: -30px;
+    }
+
+    #abt_rt .shape {
+        top: 43%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_rt .ccl {
+        top: 80%;
+        left: -30px;
+    }
+
+    .about_circle {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .about_photo {
+        height: 260px;
+        width: 260px;
+    }
+
+    .about_photo_olay {
+        height: 260px;
+        width: 260px;
+    }
+
+    #abt_lt {
+        z-index: 99;
+    }
+
+    #abt_lt h3 {
+        line-height: 13px;
+    }
+
+    #abt_rt h3 {
+        line-height: 13px;
+    }
+
+    #about_us .abt_btm_mr_top {
+        margin-top: 9px;
+    }
+
+    #abt_top:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_top:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_btm:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_btm:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_lt:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_lt:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_rt:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_rt:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+/* ==== ==== X-sm Folio start ==== ==== */
+
+    #folio .sp-mg_folio {
+        margin-top: 40px;
+    }
+
+    .folio_item_olay i {
+        font-size: 14px;
+        margin-right: 7px;
+    }
+
+    .folio_item_olay .ccl {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+
+/* ==== ==== X-sm Service start ==== ==== */
+
+    #service {
+        background: #fff;
+        padding-bottom: 35px;
+        overflow: hidden;
+    }
+
+    #srv_sld_lg {
+        display: none;
+    }
+
+    #srv_sld_sm {
+        display: block;
+    }
+
+    #service .sp_mb_serv {
+        margin-bottom: 45px;
+    }
+
+/* ==== ==== X-sm Service_Part2 start ==== ==== */
+
+    #srv2_sld_lg {
+        display: none;
+    }
+
+    #srv2_sld_sm {
+        display: block;
+        position: relative;
+    }
+
+    .serv_btm_olay {
+        padding-top: 115px;
+        padding-bottom: 115px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+/* ==== ==== X-sm Pricing start ==== ==== */
+
+    #price {
+        overflow-x: hidden;
+        margin: 15px 0;
+    }
+
+    #price .sp_mg {
+        margin-top: 70px;
+    }
+
+    .price_item {
+        overflow-x: hidden;
+    }
+
+    .prc_pr_ccl {
+        top: 70px;
+    }
+
+/* ==== ==== X-sm Counter start ==== ==== */
+
+    #cnt_lg {
+        display: none;
+    }
+
+    #cnt_md {
+        display: none;
+    }
+
+    #cnt_sm {
+        display: block;
+    }
+
+    .count_olay {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+/* ==== ==== X-sm Team start ==== ==== */
+
+    #team {
+        padding-top: 20px;
+    }
+
+    #team .sp_mg {
+        margin-top: 70px;
+    }
+
+    .team_item {
+        overflow: hidden;
+    }
+
+    .team_item:hover .team_scl_item {
+        position: sticky;
+    }
+
+    .team_item:hover .team_scl_item {
+        height: 54px;
+    }
+
+    .team_slider .arrow_left {
+        top: -50px;
+        left: 115px;
+    }
+
+    .team_slider .arrow_right {
+        top: -50px;
+        right: 115px;
+    }
+
+/* ==== ==== X-sm Logo start ==== ==== */
+
+#logo_part {
+    padding: 110px 0;
+}
+
+/* ==== ==== X-sm Footer_top start ==== ==== */
+
+    .footer_top_logo {
+        padding-bottom: 60px;
+    }
+
+    .foot_top_items {
+        margin-top: 15px;
+        border: none;
+    }
+
+    .foot_top_items p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .foot_top_items p.sm_pd {
+        padding: 0 40px;
+        padding-top: 20px;
+    }
+
+    .foot_top_social h3 {
+        padding-top: 30px;
+    }
+
+    .foot_top_social i {
+        margin-right: 12px;
+    }
+
+/* ==== X-sm END ==== */
+
+}
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+	/* === === SM Common Start === ==== */
+
+    .item_top h3 {
+        font-size: 32px;
+        padding-bottom: 18px;
+    }
+
+    .item_top p {
+        font-size: 13px;
+        line-height: 23px;
+        padding: 0 15px;
+    }
+
+	/* === === SM Header Start === ==== */
+
+    .navbar {
+        overflow-y: visible;
+        overflow-x: hidden;
+        transition: all linear .5s;
+        -webkit-transition: all linear .5s;
+        -moz-transition: all linear .5s;
+        -ms-transition: all linear .5s;
+        -o-transition: all linear .5s;
+    }
+
+    .navbar-brand {
+        padding-left: 12px;
+    }
+
+    .navbar-toggler i {
+        color: #fec600;
+        font-size: 22px;
+        margin-bottom: 6px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }  
+
+    .navbar-toggler .bar_sqr {
+        height: 40px;
+        width: 50px;
+        background: transparent;
+        border: 1px solid #fec600;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-align: center;
+        line-height: 38px;
+    }
+
+    .navbar-toggler i:hover {
+        color: #000;
+        background: #fec600;
+    }
+
+    .xsm_menu_bg {
+        background: rgba(34, 34, 34, 0.95);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        line-height: 20px!important;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link:hover {
+        background: #000;
+    }
+
+    .navbar-nav .nav-link:hover::after {
+        display: none;
+    }
+
+/* === === SM Banner Start === ==== */
+
+    .ban_one {
+        height: 730px;
+    }
+
+    .ban_text p {
+        padding: 0px 25px;
+        padding-bottom: 48px;
+    }
+
+    .ban_text a {
+        font-size: 12px;
+        width: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 15px;
+    }
+
+/* === === SM About_Us Start === ==== */
+
+    .about_item h3 {
+        font-size: 13px;
+        padding: 0 17px;
+        padding-top: 13px;
+        padding-bottom: 11px;
+    }
+
+    .about_item h3:hover {
+        cursor: pointer;
+        background: #fec600;
+    }
+
+    .about_item:hover h3 {
+        cursor: pointer;
+        background: #fec600;
+    }
+
+    .about_item p {
+        font-size: 11px;
+        line-height: 17px;
+        padding: 0 17px;
+        padding-top: 10px;
+        padding-bottom: 13px;
+        opacity: 0;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #about_us .sp-mg_abt_us {
+        margin-top: 40px;
+    }
+
+    #about_us .abt_top_mr_btm {
+        margin-bottom: 38px;
+    }
+
+    .about_circle {
+        height: 325px;
+        width: 325px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #abt_top .shape {
+        left: 50%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_top .ccl {
+        bottom: -40px;
+        left: 50%;
+    }
+
+    #abt_btm .shape {
+        left: 50%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_btm .ccl {
+        top: -40px;
+        left: 50%;
+    }
+
+    #abt_lt .shape {
+        top: 43%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_lt .ccl {
+        top: 80%;
+        right: -30px;
+    }
+
+    #abt_rt .shape {
+        top: 43%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    #abt_rt .ccl {
+        top: 80%;
+        left: -30px;
+    }
+
+    #abt_lt {
+        z-index: 99;
+    }
+
+    #abt_lt h3 {
+        line-height: 13px;
+    }
+
+    #abt_rt h3 {
+        line-height: 13px;
+    }
+
+    #about_us .abt_btm_mr_top {
+        margin-top: 9px;
+    }
+
+    #abt_top:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_top:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_btm:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_btm:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_lt:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_lt:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_rt:hover p {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #abt_rt:hover .shape {
+        opacity: 1;
+        visibility: visible;
+    }
+
+/* === === SM Service Start === ==== */
+
+    #service {
+        background: #fff;
+        padding-bottom: 35px;
+        overflow: hidden;
+    }
+
+    #srv_sld_lg {
+        display: none;
+    }
+
+    #srv_sld_sm {
+        display: block;
+    }
+
+    #service .sp_mb_serv {
+        margin-bottom: 50px;
+    }
+
+/* ==== ==== SM Service_Part2 start ==== ==== */
+
+    #srv2_sld_lg {
+        display: none;
+    }
+
+    #srv2_sld_sm {
+        display: block;
+        position: relative;
+    }
+
+    .serv_btm_olay {
+        padding-top: 115px;
+        padding-bottom: 115px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+/* ==== ==== SM Counter start ==== ==== */
+
+    #cnt_lg {
+        display: none;
+    }
+
+    #cnt_md {
+        display: none;
+    }
+
+    #cnt_sm {
+        display: block;
+    }
+
+    .count_olay {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    #cnt_sm .sp_spc {
+        margin-bottom: 22px;
+    }
+
+/* ==== ==== SM Team start ==== ==== */
+
+    .team_slider .arrow_left {
+        top: -50px;
+        left: 115px;
+    }
+
+    .team_slider .arrow_right {
+        top: -50px;
+        right: 115px;
+    }
+
+/* ==== ==== SM Logo start ==== ==== */
+
+    #logo_part {
+        padding: 100px 0;
+    }
+
+    .logo_item {
+        padding: 43px 0;
+        border: 2px solid #cccccc;
+    }
+
+    .logo_slider .slick-center > .logo_item {
+        border: 2px solid #fec600;
+    }
+
+/* ==== ==== SM Footer_Top start ==== ==== */
+
+    .footer_top_logo {
+        padding-bottom: 60px;
+    }
+
+    .foot_top_items {
+        margin-top: 28px;
+        border: none;
+    }
+
+    .foot_top_items p {
+        font-size: 15px;
+        padding: 0 6px;
+        padding-top: 20px;
+    }
+
+    .foot_top_items p.sp_pad {
+        padding: 0 0px;
+        padding-top: 20px;
+    }
+
+/* ==== SM END ==== */
+
+}
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+/* === === MD Header Start === ==== */
+
+.navbar {
+    overflow-y: visible;
+    overflow-x: hidden;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+.navbar-brand {
+    padding-left: 12px;
+}
+
+.navbar-toggler i {
+    color: #fec600;
+    font-size: 22px;
+    margin-bottom: 6px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}  
+
+.navbar-toggler .bar_sqr {
+    height: 40px;
+    width: 50px;
+    background: transparent;
+    border: 1px solid #fec600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.navbar-toggler i:hover {
+    color: #000;
+    background: #fec600;
+}
+
+.xsm_menu_bg {
+    background: rgba(34, 34, 34, 0.95);
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    line-height: 20px!important;
+    margin-left: 0;
+    width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+    background: #000;
+}
+
+.navbar-nav .nav-link:hover::after {
+    display: none;
+}
+
+/* === === MD Banner Start === ==== */
+
+.ban_text a {
+    font-size: 13px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    margin-right: 20px;
+}
+
+/* === === MD About_Us Start === ==== */
+
+.about_item h3 {
+    font-size: 16px;
+    padding: 0 26px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.about_item h3:hover {
+    cursor: pointer;
+    background: #fec600;
+}
+
+.about_item:hover h3 {
+    cursor: pointer;
+    background: #fec600;
+}
+
+.about_item p {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 25px;
+    padding-top: 6px;
+    padding-bottom: 14px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#about_us .sp-mg_abt_us {
+    margin-top: 50px;
+}
+
+.about_circle {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* === === MD Service Start === ==== */
+
+.serv_para {
+    margin-left: 80px;
+}
+
+.serv_para_mrr {
+    margin-right: 80px;
+}
+
+.serv_para p {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 23px 25px;
+}
+
+.serv_para_mrr p {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 23px 25px;
+}
+
+.serv_para .mid_ccl {
+    left: -115px;
+}
+
+.serv_para_mrr .mid_ccl {
+    right: -115px;
+}
+
+.serv_head h3 {
+    padding-right: 80px;
+}
+
+.serv_head_mrr h3 {
+    padding-left: 80px;
+}
+
+/* === === MD Service: Part2 Start === ==== */
+
+.serv2_para {
+    margin-right: 50px;
+}
+
+/* === === MD Counter Start === ==== */
+
+.count_olay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#cnt_lg {
+    display: none;
+}
+
+#cnt_md {
+    display: block;
+}
+
+#cnt_sm {
+    display: none;
+}
+
+/* === === MD Team Start === ==== */
+
+.team_slider .arrow_left {
+    top: -53px;
+    left: 155px;
+}
+
+.team_slider .arrow_right {
+    top: -53px;
+    right: 155px;
+}
+
+#team .sp_mg {
+    margin-top: 80px;
+}
+
+.team_social i {
+    margin-right: 12px;
+}
+
+/* === === MD Logo Start === ==== */
+
+#logo_part {
+    padding: 93px 0;
+}
+
+.logo_item {
+    padding: 35px 0;
+    border: 2px solid #cccccc;
+}
+
+.logo_slider .slick-center > .logo_item {
+    border: 2px solid #fec600;
+}
+
+/* === === MD Footer_Top Start === ==== */
+
+.foot_top_items {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 12px;
+}
+
+#footer_top p.sm_pd {
+    padding: 0 28px;
+    padding-top: 20px;
+}
+
+.foot_top_items p {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+.foot_top_social h3 {
+    padding-top: 50px;
+}
+
+/* ==== MD END ==== */
+	
+}
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === LG About_Us Start === ==== */
+
+.about_item h3 {
+    font-size: 17px;
+    padding: 0 29px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.about_item h3:hover {
+    cursor: pointer;
+    background: #fec600;
+}
+
+.about_item:hover h3 {
+    cursor: pointer;
+    background: #fec600;
+}
+
+.about_item p {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 0 30px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+#about_us .sp-mg_abt_us {
+    margin-top: 45px;
+}
+
+.about_circle {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#abt_btm .ccl {
+    top: -35px;
+}
+
+#abt_top .ccl {
+    bottom: -35px;
+}
+
+/* === === LG Service Start === ==== */
+
+.serv_para_mrr {
+    margin-right: 90px;
+}
+
+.serv_para {
+    margin-left: 90px;
+}
+
+.serv_para p {
+    line-height: 21px;
+    padding: 28px 26px;
+}
+
+.serv_para_mrr p {
+    line-height: 21px;
+    padding: 28px 26px;
+}
+
+.serv_para .mid_ccl {
+    left: -125px;
+}
+
+.serv_para_mrr .mid_ccl {
+    right: -125px;
+}
+
+/* === === LG Counter Start === ==== */
+
+.count_olay {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.count_txt h3 {
+    font-size: 27px;
+    padding-bottom: 22px;
+}
+
+.count_txt p {
+    font-size: 18px;
+}
+
+.count_item::after {
+    height: 112px;
+    width: 180px;
+}
+
+/* === === LG Team Start === ==== */
+
+.team_social i {
+    margin-right: 10px;
+}
+
+/* === === LG Logo Start === ==== */
+
+#logo_part {
+    padding: 90px 0;
+}
+
+.logo_item {
+    padding: 42px 0;
+    clip-path: polygon(3% 0, 100% 0%, 97% 100%, 0% 100%);
+    border: 3px solid #cccccc;
+}
+
+.logo_slider .slick-center > .logo_item {
+    border: 3px solid #fec600;
+}
+
+/* === === LG Footer_Top Start === ==== */
+
+.foot_top_items p {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0 23px;
+    padding-top: 20px;
+}
+
+/* ==== LG END ==== */
+	
+}
+
+/* ==== ==== 5. Extra-Large Devices ==== ==== */
+/* ==== ==== (xl) Screen ==== ==== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    
+/* === === XL Counter Start === ==== */
+        
+.count_olay {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+
+
+/* ==== XL END ==== */
+        
+}
